@@ -309,11 +309,14 @@ footer {
   margin-bottom: 30px;
 }
 
-footer .uppercase {
-  margin-right: 10px;
+.service{   
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
-footer .uppercase:hover {
+.service .uppercase:hover {
   color: #fe50a6;
 }
 
@@ -337,11 +340,15 @@ footer .uppercase:hover {
   font-size: 14px;
 }
 
+.policy{
+    display: inline-block;
+    margin-left: 18px;
+}
+
 .policy__links {
   color: #464646;
   font-size: 14px;
-  margin-top: 10px;
-  margin-left: 10px;
+  margin-right: 20px;
 }
 
 .policy__links:hover {
@@ -365,9 +372,6 @@ footer .uppercase:hover {
 
   .intro__text-container {
     width: 100%;
-  }
-
-  .intro__title{
     text-align: center;
   }
 
@@ -402,7 +406,7 @@ footer .uppercase:hover {
 }
 
 @media screen and (max-width: 600px) {
-  .intro__title {
+  .intro__text-container {
     text-align: left;
   }
 
@@ -422,4 +426,9 @@ footer .uppercase:hover {
     margin: 0;
     margin-bottom: 40px;
   }
+
+  .policy{
+    margin-top: 20px;
+  }
+
 }
