@@ -105,10 +105,12 @@ a {
   margin: 10px;
 }
 
-.landing p {
+.landing__description{
+    width: 100%;
+    max-width: 550px;
   font-size: 18px;
   line-height: 32px;
-  margin: 10px 0 20px 0;
+  margin: 10px auto 20px auto;
 }
 
 form {
