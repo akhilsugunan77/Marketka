@@ -147,17 +147,14 @@ form input::placeholder {
 
 .intro {
   padding: 120px 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .intro__text-container {
   width: 500px;
+  float: left;
 }
 
-.intro__text-container::after {
+.clearfix::after {
   display: block;
   content: "";
   clear: both;
@@ -176,6 +173,8 @@ form input::placeholder {
 }
 
 .intro__img {
+    float: right;
+    margin-top: 40px;
   width: 100%;
   max-width: 550px;
 }
@@ -368,8 +367,24 @@ footer .uppercase:hover {
     width: 100%;
   }
 
+  .intro__title{
+    text-align: center;
+  }
+
+  .intro article{
+    float: left;
+    width: 45%;
+  }
+
+  .intro article:last-child{
+    float: right;
+  }
+
   .intro__img{
     width: 100%;
+    float: none;
+    display: block;
+    margin:auto;
   }
 
   .founder__name,
@@ -393,6 +408,14 @@ footer .uppercase:hover {
 
   .intro article {
     width: 100%;
+  }
+
+  .intro article{
+    float: none;
+    width: 100%;
+  }
+  .intro article:last-child{
+    float: none;
   }
 
   .starting article {
