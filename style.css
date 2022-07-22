@@ -285,8 +285,10 @@ hr {
   padding: 100px 0;
   color: #ffffff;
 }
-.getstarted p {
-  margin: 20px 0;
+.getstarted__description {
+    max-width: 550px;
+    width: 100%;
+    margin: 20px auto;
 }
 
 .getstarted__cover {
