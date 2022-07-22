@@ -254,7 +254,9 @@ hr {
 }
 
 .pricing__description {
-  margin: 10px 0 50px 0;
+    max-width: 550px;
+    width: 100%;
+  margin: 10px auto 50px auto;
 }
 
 .pricing article {
