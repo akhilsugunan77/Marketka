@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+*{
+    box-sizing: border-box;  
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    color: #414141;
+}
+
+h1,h2,h3,h4,p{
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.large-text{
+    font-size: 55px;
+    line-height: 60px;
+}
+
+.title-text{
+    font-size: 36px;
+    line-height: 51px;
+}
+
+.bold-text{
+    font-size: 18px;
+}
+
+.uppercase{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #464646;
+}
+
+.description{
+    font-size: 16px;
+    line-height: 28px;
+    color: #6c6c6c;
+}
+
+.button{
+    display: inline-block;
+    background-color: white;
+    color: #414141;
+    border: 1px solid #414141;
+    border-radius: 4px;
+    padding: 10px 40px;
+    width: 100%;
+    max-width: 192px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-image: linear-gradient(to right, #fe985b 3%, #fe4fa7);
+    color: #ffffff;
+    border: 1px solid  transparent;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.landing{
+    color: #ffffff;
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+}
+
+.landing__container{
+    align-self: center;
+    grid-column: 1/5;
+    grid-row: 2/4;
+    text-align: center;
+}
+
+.logo-img{
+    width: 106px;
+    height: 18px;
+    margin: 10px;
+}
+
+.landing p{
+    font-size: 18px;
+    line-height: 32px;
+    margin: 10px 0 20px 0;
+}
+
+form{
+    padding: 10px;  
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px; 
+}
+
+form input{
+
+    display: inline-block;
+    width: 100%;
+    max-width: 350px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255,.25);
+    border: none;
+    border-radius: 4px;
+}
+
+
+form input::placeholder{
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.landing__cover{
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(70%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    overflow:hidden;
+}
+
+.intro{
+    padding: 120px 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.intro__text-container{
+    width: 100%;
+    max-width: 500px;
+}
+
+.intro__text-container::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.intro article{
+    margin-bottom: 30px;
+}
+
+.intro__title{
+    margin-bottom: 50px;
+}
+
+.intro__description{
+    margin-top: 10px;
+}
+
+.intro__img {
+    width: 100%;
+    max-width: 550px;
+}
+
+hr{
+    border: none;
+    background-color: #dcdcdc;
+    height: 1px;
+}
+
+.starting{
+    text-align: center;
+    padding: 120px 10px ;    
+    font-size: 0;
+}
+
+.starting article{
+    display: inline-block;
+    width: 100%;
+    max-width: 370px;
+    margin-right: 20px;
+}
+
+.starting .bold-text{
+    margin: 20px 0 10px 0;
+}
+
+
+
+.founder{
+    margin: 50px 0;
+    padding: 20px 10px ;
+    background-color: #f6fafd;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.founder__container{
+    max-width: 700px;
+}
+
+.founder__cover{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 685px;
+    background-color: #f6fafd;
+    z-index: -1;
+}
+
+.founder__img {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    margin: 30px 0 0 0;
+}
+
+.founder__description{
+    font-size: 24px;
+    line-height: 40px;
+}
+
+
+.founder__name{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.founder__role{
+    font-size: 20px;
+}
+
+.pricing{
+    text-align: center;
+    padding: 0 10px;
+    margin: 50px 0;
+}
+
+.pricing__description{
+    margin: 10px 0 50px 0;
+}
+
+.pricing article {
+    display: inline-block;
+    max-width: 371px;
+    height: 483px;
+    padding: 40px;
+}
+.pricing article:hover {
+    background-color: #f6fafd;
+}
+
+.pricing__price{
+    font-size: 72px;
+    color: #fe4fa7;
+    margin: 25px 0;
+}
+
+.price::after{
+    content: "/mo";
+    font-size: 14px;
+    color: #414141;
+    font-weight: bold;
+}
+
+.getstarted{
+    text-align: center;
+    padding: 100px 0;
+    color: #ffffff;
+}
+.getstarted p{
+    margin: 20px 0;
+}
+
+.getstarted__cover{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 370px;
+    margin: -100px 0;
+    background-image: linear-gradient(to right, #fe985b 3%, #fe4fa7);
+    z-index: -1;
+}
+
+footer{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.footer__logo{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+footer .uppercase{
+    margin-right:10px;
+}
+
+footer .uppercase:hover{
+    color: #fe50a6;
+}
+
+.social{
+    margin: 25px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social__icons{
+    vertical-align: bottom;
+}
+
+.social__icons img:hover{
+    background-color: #fe50a6;
+}
+
+.copyright{
+    color: #464646;
+    font-size: 14px;
+}
+
+.policy__links{
+    color: #464646;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.policy__links:hover{
+    color: #fe50a6;
+}
+
+
+@media screen and (max-width:1190px){
+    .starting article{
+        margin-bottom: 40px;
+    }
+    .getstarted{
+        background-image: linear-gradient(to right, #fe985b 3%, #fe4fa7);
+    }
+}
+@media screen and (max-width:1074px){
+
+    .intro{
+        display: block;
+    }
+
+    .intro__text-container{
+        max-width: 100%;
+    }
+
+    .intro__title{
+        text-align: center;
+    }
+
+    .intro article{
+        width: 50%;
+        float: left;
+    }
+
+    .intro__img{
+        max-width: 100%;
+    }
+
+    .founder__name , .founder__role{
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:823px){
+    form {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+}
+
+
+@media screen and (max-width:600px) {
+
+    .intro__title{
+        text-align: left;
+    }
+
+    .intro article{
+        width: 100%;
+        float: none;
+    }
+
+    .starting article{
+        margin: 0;
+        margin-bottom: 40px;
+    }
+}
