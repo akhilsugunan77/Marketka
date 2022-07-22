@@ -204,7 +204,7 @@ hr {
 
 .founder {
   margin: 50px 0;
-  padding: 20px 10px;
+  padding: 0 10px;
   background-color: #f6fafd;
   display: flex;
   align-items: center;
@@ -228,7 +228,6 @@ hr {
 .founder__img {
   width: 100%;
   max-width: 400px;
-  padding: 30px;
   margin: 30px 0 0 0;
 }
 
@@ -250,7 +249,7 @@ hr {
 .pricing {
   text-align: center;
   padding: 0 10px;
-  margin: 50px 0;
+  margin: 100px 0;
 }
 
 .pricing__description {
