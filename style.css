@@ -325,11 +325,11 @@ footer .uppercase:hover {
 }
 
 .social__icons {
-  vertical-align: bottom;
+  color: black;
 }
 
-.social__icons img:hover {
-  background-color: #fe50a6;
+.social__icons:hover {
+  color: #fe50a6;
 }
 
 .copyright {
