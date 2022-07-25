@@ -18,7 +18,7 @@ a{
 }
 
 section{
-  margin: 100px 0;
+  padding: 100px 0;
 }
 
 .header--large {
@@ -82,6 +82,7 @@ section{
   margin: 0 auto;
   color: #ffffff;
   width: 100%;
+  padding: 0;
   height: 100vh;
 }
 .landing__cover{
@@ -93,6 +94,7 @@ section{
   position: absolute;
   z-index: -1;
 }
+
 .landing__container{
   position: relative;
   width: 100%;
@@ -117,7 +119,7 @@ section{
   max-width: 550px;
   font-size: 18px;
   line-height: 32px;
-  margin: 10px auto 20px auto;
+  margin: 10px auto 40px auto;
 }
 
 .user-details {
@@ -184,25 +186,25 @@ hr {
   margin: 0;
 }
 
-.starting {
+.feature {
   text-align: center;
   font-size: 0;
 }
 
-.starting article {
+.feature article {
   display: inline-block;
   width: 100%;
   max-width: 370px;
   margin-right: 20px;
 }
 
-.starting .bold-text {
+.feature .bold-text {
   margin: 20px 0 10px 0;
 }
 
-.featured{
+.highlighted{
   background-color: #f6fafd;
-  padding: 10px;
+  padding:0;
 }
 
 .founder {
@@ -211,6 +213,7 @@ hr {
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 .founder__container {
@@ -265,6 +268,7 @@ hr {
 }
 .pricing article:hover {
   background-color: #f6fafd;
+  cursor: pointer;
 }
 
 .pricing__price {
@@ -283,7 +287,9 @@ hr {
 .getstarted {
   text-align: center;
   color: #ffffff;
-  background-color: #414141;
+  background-image: linear-gradient(to right, #fe985b 3%, #fe4fa7);
+  padding: 100px 0;
+  margin-bottom: 100px;
 }
 .getstarted__description {
     max-width: 550px;
@@ -299,6 +305,10 @@ hr {
   margin: -100px 0;
   background-image: linear-gradient(to right, #fe985b 3%, #fe4fa7);
   z-index: -1;
+}
+
+.getstarted.button:h{
+
 }
 
 footer {
@@ -357,7 +367,7 @@ footer {
 }
 
 @media screen and (max-width: 1190px) {
-  .starting article {
+  .feature article {
     margin-bottom: 40px;
   }
 
