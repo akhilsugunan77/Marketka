@@ -247,35 +247,34 @@ hr {
   font-size: 20px;
 }
 
-.pricing {
+.card-container {
   text-align: center;
 }
 
-.pricing .description {
+.card-container .description {
     max-width: 550px;
-    width: 100%;
     margin: 10px auto 50px auto;
 }
 
-.price-content {
+.card {
   display: inline-block;
   max-width: 371px;
   height: 480px;
   padding: 40px;
 }
 
-.price-content:hover {
+.card:hover {
   background-color: #f6fafd;
   cursor: pointer;
 }
 
-.price__fee {
+.card__fee {
   font-size: 72px;
   color: #fe4fa7;
   margin: 25px 0;
 }
 
-.price__fee.month::after {
+.card__fee.month::after {
   content: "/ mo";
   font-size: 14px;
   color: #414141;
@@ -284,7 +283,6 @@ hr {
 
 .featured {
   background-image: linear-gradient(to right, #fe985b 3%, #fe4fa7);
-  padding: 100px 0;
   margin-bottom: 100px;
 }
 
@@ -323,15 +321,23 @@ footer {
   margin-bottom: 30px;
 }
 
-.service{   
+.services{   
     display: flex;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
 }
 
-.service .header--smallest:hover {
+.services .services__links:hover {
   color: #fe50a6;
+}
+
+.services__links{
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #464646;
 }
 
 .social {
