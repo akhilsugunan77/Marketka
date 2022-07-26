@@ -39,8 +39,7 @@ section{
   font-size: 18px;
 }
 
-.uppercase {
-  display: inline-block;
+.header--smallest {
   font-size: 14px;
   line-height: 20px;
   font-weight: bold;
@@ -270,14 +269,14 @@ hr {
   cursor: pointer;
 }
 
-.price__price {
+.price__fee {
   font-size: 72px;
   color: #fe4fa7;
   margin: 25px 0;
 }
 
-.price__price::after {
-  content: "/mo";
+.price__fee.month::after {
+  content: "/ mo";
   font-size: 14px;
   color: #414141;
   font-weight: bold;
@@ -331,7 +330,7 @@ footer {
     flex-wrap: wrap;
 }
 
-.service .uppercase:hover {
+.service .header--smallest:hover {
   color: #fe50a6;
 }
 
@@ -443,7 +442,7 @@ footer {
     font-size: 14px;
   }
   
-  .uppercase {
+  .header--smallest {
     display: inline-block;
     font-size: 12px;
     line-height: 20px;
