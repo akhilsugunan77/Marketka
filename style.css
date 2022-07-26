@@ -215,6 +215,7 @@ hr {
 
 .founder__container {
   max-width: 700px;
+  font-size: 20px;
 }
 
 .founder__cover {
@@ -241,10 +242,6 @@ hr {
   font-size: 24px;
   font-weight: bold;
   margin-top: 20px;
-}
-
-.founder__role {
-  font-size: 20px;
 }
 
 .card-container {
@@ -418,9 +415,11 @@ footer {
     margin:auto;
   }
 
-  .founder__name,
-  .founder__role {
+  .founder__container p {
     text-align: center;
+  }
+  .founder__container p:first-child {
+    text-align: left;
   }
 
 }
@@ -505,6 +504,20 @@ footer {
 
   .founder{
     padding: 10px;
+  }
+  .founder__container{
+    font-size: 18px;
+  }
+  .founder__description {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .founder__name{
+    font-size: 20px;
+  }
+
+  .featured-content p{
+    font-size: 14px;
   }
 
   .policy{
