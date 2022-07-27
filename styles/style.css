@@ -46,8 +46,8 @@ a{
 
 .description{
   font-size: 18px;
-  font-weight: 300;
-  line-height: 30px;
+  font-weight: normal;
+  line-height: 32px;
   color: inherit;
 }
 
@@ -79,8 +79,6 @@ a{
   line-height: 40px;
   color: #414141;
 }
-
-
 
 .button {
   display: inline-block;
@@ -119,7 +117,7 @@ a{
 
 .variant-three{
   background-color: #ffffff;
-  color: #414141;
+  color: #464646;
   border: 1px solid transparent;
 }
 
@@ -206,9 +204,6 @@ a{
   color: #ffffff;
   width: 100%;
   max-width: 540px;
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 32px;
   margin: 10px auto 40px auto;
 }
 
