@@ -472,6 +472,33 @@ footer {
     margin: 50px 0 50px;
   }
 
+  .box p{
+    margin-top: 10px; 
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .box__item {
+    font-size: 18px;
+    line-height: 10px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  .box__item:last-child{
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 0;
+  }
+  
+  .margin{
+    margin-top: 20px;
+    margin-bottom: 14px;
+  }
+  
+  .margin-heading{
+    margin-bottom: 30px;
+  }
+
   .heading--large {
     text-align: center;
     font-weight: bold;
@@ -507,6 +534,11 @@ footer {
   
   .button {
     font-size: 14px;
+    padding: 10px 40px;
+  }
+
+  input{
+    height: 40px;
   }
 
   input::placeholder{
