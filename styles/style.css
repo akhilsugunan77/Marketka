@@ -114,7 +114,7 @@ a{
   text-align: center;
 }
 
-.mtb{
+.mtb-1{
   margin-top: 29px;
   margin-bottom: 14px;
 }
@@ -147,7 +147,7 @@ a{
   padding-right: 10px;
 }
 
-.homepage {
+.hero {
   color: #ffffff;
   padding: 0;
   height: 100vh;
@@ -163,9 +163,8 @@ a{
   z-index: -1;
 }
 
-.homepage .container{
+.hero .container{
   position: relative;
-  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -182,7 +181,7 @@ a{
   margin-left: 20px;
 }
 
-.homepage .description{
+.hero .description{
   text-align: center;
   color: #ffffff;
   width: 100%;
@@ -191,7 +190,6 @@ a{
 }
 
 .user-details{
-  width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -277,7 +275,7 @@ hr {
 
 .box__item {
   font-size: 24px;
-  line-height: 20px;
+  line-height: 10px;
   font-weight: bold;
   margin-top: 20px;
 }
