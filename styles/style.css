@@ -123,6 +123,12 @@ a{
   margin-bottom: 30px;
 }
 
+.mtb-center{
+  text-align: center;
+  max-width: 550px;
+  margin: 10px auto 40px auto;
+}
+
 .my-lg{
   margin: 117px 0 119px;
 }
@@ -146,6 +152,8 @@ a{
   padding-left:  10px;
   padding-right: 10px;
 }
+
+
 
 .hero {
   color: #ffffff;
@@ -186,7 +194,6 @@ a{
   color: #ffffff;
   width: 100%;
   max-width: 540px;
-  margin: 10px auto 40px auto;
 }
 
 .user-details{
@@ -286,11 +293,6 @@ hr {
   margin-top: 0;
 }
 
-
-.card-container .description-sm {
-    max-width: 548px;
-    margin: 17px auto 66px;
-}
 
 .card {
   display: inline-block;
