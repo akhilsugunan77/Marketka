@@ -317,6 +317,13 @@ hr {
   height: 86px;
 }
 
+.pink-bg-text{
+  font-size: 72px;
+  color: #fe4fa7;
+  margin: 28px 0;
+  height: 86px;
+}
+
 .month{
   font-size: 14px;
   color: #414141;
