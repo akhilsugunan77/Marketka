@@ -18,6 +18,10 @@ a{
   text-decoration: none;
 }
 
+.txt-white{
+  color: #ffffff;
+}
+
 .heading--lg{
   text-align: center;
   font-weight: bold;
@@ -156,7 +160,6 @@ a{
 
 
 .hero {
-  color: #ffffff;
   padding: 0;
   height: 100vh;
 }
@@ -187,13 +190,6 @@ a{
   top: 0;
   margin-top: 42px;
   margin-left: 20px;
-}
-
-.hero .description{
-  text-align: center;
-  color: #ffffff;
-  width: 100%;
-  max-width: 540px;
 }
 
 .user-details{
@@ -339,7 +335,6 @@ hr {
 
 .featured-content{
   padding: 120px 10px;
-  color: #ffffff;
 }
 
 .featured-content p{
