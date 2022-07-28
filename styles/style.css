@@ -58,24 +58,9 @@ a{
   color: #6c6c6c;
 }
 
-.description-md{
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 28px;
-  color: #6c6c6c;
-}
-
-.description-lg{
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 28px;
-  color: #6c6c6c;
-}
-
 .description-xl{
   font-size: 24px;
   font-weight: normal;
-  font-style: normal;
   line-height: 40px;
   color: #414141;
 }
@@ -129,13 +114,13 @@ a{
   text-align: center;
 }
 
-.margin{
+.mtb{
   margin-top: 29px;
   margin-bottom: 14px;
 }
 
-.margin-heading{
-  margin-bottom: 57px;
+.mb30{
+  margin-bottom: 30px;
 }
 
 .my-lg{
@@ -528,12 +513,12 @@ footer {
     margin-top: 0;
   }
   
-  .margin{
+  .mtb{
     margin-top: 20px;
     margin-bottom: 14px;
   }
   
-  .margin-heading{
+  .mb30{
     margin-bottom: 30px;
   }
 
@@ -568,18 +553,6 @@ footer {
     font-size: 14px;
     line-height: 22px;
     color: inherit;
-  }
-
-  .description-md{
-    font-size: 15px;
-    font-weight: 300;
-    line-height: 28px;
-  }
-  
-  .description-lg{
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 30px;
   }
   
   .description-xl{
