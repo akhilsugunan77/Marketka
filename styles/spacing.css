@@ -124,6 +124,10 @@
 .m-r-2_5{
     margin-right: 2.5rem;
 }
+/* margin-left */
+.m-l-2_5{
+    margin-left: 2.5rem;
+}
 
 
 /* padding-top */
@@ -157,6 +161,14 @@
     margin-top: 10px;
 }
 
+
+/* margin-left */
+
+.m-l-2_5{
+    margin-left: 0;
+}
+
+
 }
 
 @media screen and (max-width:900px){
@@ -164,6 +176,12 @@
         --margin:14px;
         --padding:14px;
         font-size: 14px;
+    }
+    /* margin-right */
+
+    .m-r-2_5{
+        
+        margin-right: 0;
     }
 }
 
