@@ -51,8 +51,9 @@ a{
 .description{
   font-size: 18px;
   font-weight: normal;
-  line-height: 32px;
+  line-height: 30px;
   color: inherit;
+  max-width: 550px;
 }
 
 .description-sm{
@@ -60,6 +61,7 @@ a{
   font-weight: 300;
   line-height: 28px;
   color: #6c6c6c;
+  max-width: 550px;
 }
 
 .description-xl{
@@ -114,39 +116,8 @@ a{
   color: #fe50a6;
 }
 
-.center{
+.ta-center{
   text-align: center;
-}
-
-.mtb-1{
-  margin-top: 29px;
-  margin-bottom: 14px;
-}
-
-.mb30{
-  margin-bottom: 30px;
-}
-
-.mtb-center{
-  text-align: center;
-  max-width: 550px;
-  margin: 10px auto 40px auto;
-}
-
-.my-lg{
-  margin: 117px 0 119px;
-}
-
-.my-sm{
-  margin: 86px 0 132px;
-}
-
-.pt{
-  padding-top: 34px;
-}
-
-.my-xl{
-  margin: 117px 0 150px;
 }
 
 .container{
@@ -156,8 +127,6 @@ a{
   padding-left:  10px;
   padding-right: 10px;
 }
-
-
 
 .hero {
   padding: 0;
@@ -186,10 +155,8 @@ a{
   width: 106px;
   height: 18px;
   position: absolute;
-  left: 0;
+  left: 10px;
   top: 0;
-  margin-top: 42px;
-  margin-left: 20px;
 }
 
 .user-details{
@@ -199,7 +166,7 @@ a{
   gap: 40px;
 }
 
-input{
+.user-input{
   display: inline-block;
   width: 100%;
   max-width: 350px;
@@ -236,9 +203,6 @@ input::placeholder {
   max-width: 556px;
 }
 
-.media{
-  margin-top: 27px;
-}
 
 hr {
   border: none;
@@ -252,8 +216,6 @@ hr {
   display: inline-block;
   width: 100%;
   max-width: 370px;
-  margin-right: 31px;
-  margin-bottom: 30px;
 }
 
 
@@ -266,7 +228,6 @@ hr {
   float: left;
   max-width: 550px;
   font-size: 20px;
-  margin: 173px  0 0 53px;
   font-size: 24px;
   line-height: 40px;
 }
@@ -280,7 +241,6 @@ hr {
   font-size: 24px;
   line-height: 10px;
   font-weight: bold;
-  margin-top: 20px;
 }
 
 .box__item:last-child{
@@ -300,7 +260,6 @@ hr {
 
 .card .description-sm{
   max-width: 282px;
-  margin:0 0 24px;
 }
 
 .card:hover {
@@ -318,7 +277,6 @@ hr {
 .pink-bg-text{
   font-size: 72px;
   color: #fe4fa7;
-  margin: 28px 0;
   height: 86px;
 }
 
@@ -330,17 +288,12 @@ hr {
 
 .featured {
   background-image: linear-gradient(to right, #fe985b 3%, #fe4fa7);
-  margin-bottom: 92px;
 }
 
-.featured-content{
-  padding: 120px 10px;
-}
 
 .featured-content p{
     max-width: 550px;
     width: 100%;
-    margin: 28px auto 22px auto;
 }
 
 
@@ -350,7 +303,6 @@ footer {
 
 .footer__logo {
   display: inline-block;
-  margin-bottom: 34px;
 }
 
 .nav{   
@@ -368,7 +320,6 @@ footer {
 
 
 .social {
-  margin: 26px 0;
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -485,18 +436,8 @@ footer {
     width: 100%;
   }
 
-  .my-lg,.my-xl,
-  .my-sm{
-    margin: 50px 0 50px;
-  }
-
-  
-  .pt{
-    padding-top: 20px;
-  }
 
   .box p{
-    margin-top: 10px; 
     font-size: 18px;
     line-height: 25px;
   }
@@ -505,22 +446,13 @@ footer {
     font-size: 18px;
     line-height: 10px;
     font-weight: bold;
-    margin-top: 5px;
   }
   .box__item:last-child{
     font-size: 16px;
     font-weight: normal;
     margin-top: 0;
   }
-  
-  .mtb{
-    margin-top: 20px;
-    margin-bottom: 14px;
-  }
-  
-  .mb30{
-    margin-bottom: 30px;
-  }
+
 
   .heading--lg {
     text-align: center;
@@ -575,7 +507,6 @@ footer {
 
   .additional-content{
     margin: 0;
-    margin-bottom: 40px;
   }
 
   .nav{
