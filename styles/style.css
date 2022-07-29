@@ -6,6 +6,7 @@
 
 html {
   scroll-behavior: smooth;
+  
 }
 
 body {
@@ -278,8 +279,6 @@ hr {
   font-size: 72px;
   color: #fe4fa7;
   height: 86px;
-  margin-top: 28px;
-  margin-bottom: 28px;
 }
 
 .month{
@@ -296,11 +295,6 @@ hr {
 .featured-content p{
     max-width: 550px;
     width: 100%;
-}
-
-
-footer {
-  padding-bottom: 76px;
 }
 
 .footer__logo {
