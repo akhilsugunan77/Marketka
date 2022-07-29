@@ -16,7 +16,7 @@
 
 /* margin-y */
 
-.m-y-5{
+.layout-margin{
     margin-top: calc(var(--margin) * 5);
     margin-bottom: 5rem;
 }
@@ -159,9 +159,9 @@
 @media screen and (max-width:1018px){
     /* margin-top */
 :root{
-    --margin:14px;
-    --padding:14px;
-    font-size: 14px;
+    --margin:12px;
+    --padding:12px;
+    font-size: 12px;
 }
 
 .m-t-10{
@@ -180,9 +180,9 @@
 
 @media screen and (max-width:900px){
     :root{
-        --margin:14px;
-        --padding:14px;
-        font-size: 14px;
+        --margin:10px;
+        --padding:10px;
+        font-size: 10px;
     }
     /* margin-right */
 
