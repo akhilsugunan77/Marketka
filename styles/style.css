@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+@import url(/styles/spacing.css);
 
 * {
   box-sizing: border-box;
@@ -303,7 +304,6 @@ hr {
 
 .nav{   
     max-width: 617px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -329,7 +329,6 @@ hr {
 
 .footer__end{
   max-width: 617px;
-  margin: 0 auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -403,6 +402,14 @@ hr {
     .highlighted{
       padding: 20px 0;
     }
+
+    .m-t-40{
+      margin-top: 10px;
+    }
+    .m-l-10{
+      margin: 0;
+    }
+
 }
 
 @media screen and (max-width: 823px) {
