@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
-@import url(/styles/spacing.css);
 
 * {
   box-sizing: border-box;
@@ -399,19 +398,17 @@ hr {
     .box-img{
       max-width: 100%;
     }
+
     .highlighted{
       padding: 20px 0;
     }
 
-    .m-t-40{
-      margin-top: 10px;
-    }
-    .m-l-10{
-      margin: 0;
-    }
-
 }
-
+@media screen and (max-width:900px){
+  :root{
+    --margin:3px;
+  }
+}
 @media screen and (max-width: 823px) {
 
   .user-details {
@@ -423,6 +420,10 @@ hr {
 }
 
 @media screen and (max-width: 600px) {
+
+  :root{
+    --margin:2px;
+  }
 
   .content-container{
     text-align: left;
@@ -509,7 +510,8 @@ hr {
   }
 
   .additional-content{
-    margin: 0;
+    margin-bottom: 30px;
+    margin-right: 0;
   }
 
   .nav{
